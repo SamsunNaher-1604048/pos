@@ -1,0 +1,48 @@
+body {
+    overflow-x: hidden;
+}
+
+.header{
+    background-color: #edfdf6;
+    color:#15a362;
+}
+
+.body{
+    background-color:#f2f2f2 ;
+    width: 100vw;
+}
+.border{
+    border: 1px solid #ddd;
+}
+.card-img-top{
+
+    width: 70% !important;
+}
+.del-test{
+    color: red;
+    font-size:12px;
+}
+.product-name{
+    font-size:12px;
+}
+.product-qty{
+    width: 20%;
+}
+.table{
+    border:1px solid #ddd;
+}
+
+.custom_btn{
+    background-color:#15a362 ;
+    color:#edfdf6  ;
+    height: 40px;
+    border-color: transparent;
+}
+.custom_btn:hover{
+    background-color: #edfdf6 ;
+    color:#15a362 ;
+}
+.addToCart{
+    cursor: pointer;
+}
+
