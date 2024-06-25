@@ -14,6 +14,12 @@
                 </div><!--//col-->
 
                 <div class="app-utilities col-auto">
+                    <div class="app-utility-item">
+                        <a  target="_blank" href="{{route('pos.show')}}" class="rounded-button">
+                            POS
+                        </a>
+                    </div><!--//app-utility-item-->
+
                     <div class="app-utility-item app-user-dropdown dropdown">
                         <a class="dropdown-toggle" id="user-dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><img src="{{asset('assets/images/user.png')}}" alt="user profile"></a>
                         <ul class="dropdown-menu" aria-labelledby="user-dropdown-toggle">
@@ -24,6 +30,7 @@
                         </ul>
                     </div><!--//app-user-dropdown-->
                 </div><!--//app-utilities-->
+
             </div><!--//row-->
         </div><!--//app-header-content-->
     </div><!--//container-fluid-->

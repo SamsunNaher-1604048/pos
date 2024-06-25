@@ -26,3 +26,19 @@
     color:white!important;
 }
 
+.pos-logo{
+    text-align: center;
+    font-size: 22px;
+}
+
+.rounded-button {
+    background-color: #28a745; /* Green color for positive action */
+    color: white !important;
+    border: none;
+    border-radius: 25px; /* Makes the button rounded */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
